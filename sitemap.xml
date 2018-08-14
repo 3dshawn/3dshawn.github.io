@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://colorcg.com/index.html</loc>
-    <lastmod>2018-08-13</lastmod>
+    <lastmod>2018-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -538,6 +538,18 @@
     </image:image>
     <image:image>
       <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98136x178.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98136x178_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D136x177.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D136x177_2x.jpg</image:loc>
     </image:image>
   </url>
   <url>

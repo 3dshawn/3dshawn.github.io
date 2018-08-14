@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1534168621721">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1534263446242">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-__.css" crc="3803563564" ref="index"/>
-    <file name="nomq_preview_master_a-__.css" crc="408499666" ref="index"/>
-    <file name="index.css" crc="7040300" ref="index"/>
-    <file name="nomq_index.css" crc="3887162702" ref="index"/>
+    <file name="master_a-__.css" crc="3874239138" ref="index"/>
+    <file name="nomq_preview_master_a-__.css" crc="4155074516" ref="index"/>
+    <file name="index.css" crc="514963838" ref="index"/>
+    <file name="nomq_index.css" crc="4032894569" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="themify.woff" crc="3800545150"/>
@@ -1465,10 +1465,8 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="微信支付_2x.jpg" crc="4047952363" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1479,16 +1477,26 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
     </file>
     <file name="支付宝_2x.jpg" crc="333868281" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+    </file>
+    <file name="微信支付136x178.jpg" crc="76471411" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="微信支付136x178_2x.jpg" crc="4126129865" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="支付宝136x177.jpg" crc="167350545" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="支付宝136x177_2x.jpg" crc="450837843" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="351906168" seo="true" mt="1534166235451" redirect="true"/>
+  <file name="index.html" crc="3878347120" seo="true" mt="1534263052591" redirect="true"/>
 </manifest>
