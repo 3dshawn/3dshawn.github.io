@@ -17,12 +17,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>主页</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-__.css?crc=357471058"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=297885710" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-__.css?crc=194695091"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4185489473" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-__.css?crc=3995112733"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=346342537" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4217490486" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -30,6 +30,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <![endif]-->
     <!--HTML Widget code-->
   
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function($) {  
+
+// site preloader -- also uncomment the div in the header and the css style for #preloader
+$(window).load(function(){
+	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+
+});
+</script>
+
+<style>
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #FFFFFF url('assets/loading.gif') no-repeat center center; }
+</style>
+
                 <style>
 				body{overflow-x:hidden !important;}
 				html{overflow-x:hidden !important;}
@@ -119,8 +135,24 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
+  <!--HTML Widget code-->
+  
+<div id="preloader"></div>
+
+  
   <div class="breakpoint active" id="bp_infinity" data-min-width="1441"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem shared_content" id="pu217962" data-content-guid="pu217962_content"><!-- column -->
+     <div class="size_fixed colelem" id="u217962" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+      
+            
+     </div>
+     <div class="size_fixed colelem" id="u217979" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+      
+                <div></div>
+            
+     </div>
+    </div>
     <div class="clearfix grpelem" id="pu50616"><!-- group -->
      <div id="u50616" class="shared_content" data-content-guid="u50616_content"><!-- simple frame --></div>
      <nav class="MenuBar clearfix" id="menuu191252"><!-- vertical box -->
@@ -186,11 +218,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clearfix shared_content" id="u140525-4" data-content-guid="u140525-4_content"><!-- content -->
       <p>CG从这里开始！</p>
      </div>
-    </div>
-    <div class="size_fixed grpelem shared_content" id="u205665" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u205665_content"><!-- custom html -->
-     
-                <div></div>
-            
     </div>
     <div class="clearfix grpelem" id="phome"><!-- column -->
      <a class="anchor_item colelem shared_content" id="home" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="home_content"></a>
@@ -422,7 +449,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clearfix colelem shared_content" id="pbuttonu145265" data-content-guid="pbuttonu145265_content"><!-- group -->
       <a class="nonblock nontext Button shadow rounded-corners clearfix grpelem shared_content" id="buttonu145265" href="http://www.internetdownloadmanager.com/download.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pbuttonu145265" data-content-guid="buttonu145265_content"><!-- container box --><div class="clearfix grpelem" id="pu145268-4"><!-- column --><div class="clearfix colelem" id="u145268-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>IDM</p></div><div class="clearfix colelem" id="u145269-4"><!-- content --><p>功能强大的老牌下载工具</p></div></div><div class="clip_frame grpelem" id="u145266"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u145267" data-orig-src="images/idm.svg?crc=3775403344" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" data-mu-svgfallback="images/idm_poster_.png?crc=4126164917" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/></div></a>
       <a class="nonblock nontext Button shadow rounded-corners clearfix grpelem shared_content" id="buttonu145270" href="https://www.freedownloadmanager.org/zh/" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pbuttonu145265" data-content-guid="buttonu145270_content"><!-- container box --><div class="clearfix grpelem" id="pu145271-4"><!-- column --><div class="clearfix colelem" id="u145271-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>FDM</p></div><div class="clearfix colelem" id="u145272-4"><!-- content --><p>免费的多功能的下载工具</p></div></div><div class="clip_frame grpelem" id="u145273"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u145274" data-orig-src="images/free-download-manager.svg?crc=4135272192" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" data-mu-svgfallback="images/free%20download%20manager_poster_.png?crc=135264173" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/></div></a>
-      <a class="nonblock nontext Button shadow rounded-corners clearfix grpelem shared_content" id="buttonu145275" href="https://www.7-zip.org/" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pbuttonu145265" data-content-guid="buttonu145275_content"><!-- container box --><div class="clearfix grpelem" id="pu145279-4"><!-- column --><div class="clearfix colelem" id="u145279-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>7-Zip</p></div><div class="clearfix colelem" id="u145276-4"><!-- content --><p>完全免费开源的压缩软件</p></div></div><div class="clip_frame grpelem" id="u145277"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u145278" data-orig-src="images/7-zip.svg?crc=183015479" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" data-mu-svgfallback="images/7-zip_poster_.png?crc=3901141698" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/></div></a>
+      <a class="nonblock nontext Button shadow rounded-corners clearfix grpelem shared_content" id="buttonu145275" href="https://www.7-zip.org/" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pbuttonu145265" data-content-guid="buttonu145275_content"><!-- container box --><div class="clearfix grpelem" id="pu145279-4"><!-- column --><div class="clearfix colelem" id="u145279-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>7-Zip</p></div><div class="clearfix colelem" id="u145276-4"><!-- content --><p>完全免费开源的压缩软件</p></div></div><div class="clip_frame grpelem" id="u145277"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u145278" data-orig-src="images/7-zip.svg?crc=391077349" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" data-mu-svgfallback="images/7-zip_poster_.png?crc=408531262" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/></div></a>
       <a class="nonblock nontext Button shadow rounded-corners clearfix grpelem shared_content" id="buttonu145280" href="https://potplayer.daum.net/" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pbuttonu145265" data-content-guid="buttonu145280_content"><!-- container box --><div class="clearfix grpelem" id="pu145281-4"><!-- column --><div class="clearfix colelem" id="u145281-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Potplayer</p></div><div class="clearfix colelem" id="u145282-4"><!-- content --><p>强大的媒体播放器</p></div></div><div class="rounded-corners clip_frame grpelem" id="u145283"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u145284" data-orig-src="images/potplayer.svg?crc=3790229068" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" data-mu-svgfallback="images/potplayer_poster_.png?crc=547941" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/></div></a>
      </div>
      <div class="clearfix colelem shared_content" id="pbuttonu145285" data-content-guid="pbuttonu145285_content"><!-- group -->
@@ -1589,7 +1616,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <a class="anchor_item colelem shared_content" id="guanyuwomen" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="guanyuwomen_content"></a>
      <div class="browser_width colelem" id="u133811-bw">
       <div class="clearfix" id="u133811"><!-- column -->
-       <div class="clearfix colelem" id="ppamphletu135048"><!-- group -->
+       <div class="clearfix colelem" id="pu135036"><!-- group -->
+        <div class="grpelem shared_content" id="u135036" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u135036_content"><!-- simple frame --></div>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u135532" href="mailto:colorcg@qq.com" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u135532_content"><!-- svg --><img class="svg temp_no_img_src" id="u135533" data-orig-src="images/%e9%82%ae%e7%ae%b1.svg?crc=4071504067" width="48" height="48" alt="" title="colorcg@qq.com" data-mu-svgfallback="images/%e9%82%ae%e7%ae%b1_poster_.png?crc=4168517880" src="images/blank.gif?crc=4208392903"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u135356" href="https://space.bilibili.com/40511822/#/" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u135356_content"><!-- svg --><img class="svg temp_no_img_src" id="u135352" data-orig-src="images/bilibili.svg?crc=379900175" width="48" height="48" alt="" title="B站" data-mu-svgfallback="images/bilibili_poster_.png?crc=509786656" src="images/blank.gif?crc=4208392903"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u133839" href="https://weibo.com/u/2833188061" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u133839_content"><!-- svg --><img class="svg temp_no_img_src" id="u133835" data-orig-src="images/%e5%be%ae%e5%8d%9a.svg?crc=13455382" width="48" height="48" alt="" title="微博" data-mu-svgfallback="images/%e5%be%ae%e5%8d%9a_poster_.png?crc=3944851971" src="images/blank.gif?crc=4208392903"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u193674" href="http://qm.qq.com/cgi-bin/qm/qr?k=wtZhqRI5qL8s5gmlZjjaAHvT9gpOHkdq" target="_blank" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter" data-content-guid="u193674_content"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u193670" data-orig-src="images/qq.svg?crc=7035155" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" title="qq" data-mu-svgfallback="images/qq_poster_.png?crc=3873004027" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/></a>
         <div class="PamphletWidget clearfix grpelem" id="pamphletu135048" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- none box -->
          <div class="ThumbGroup clearfix grpelem" id="u135059" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
           <div class="popup_anchor" id="u135061popup">
@@ -1604,57 +1636,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           <div class="ContainerGroup clearfix" id="u135049" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
            <div class="Container invi clearfix grpelem" id="u135050" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
             <div class="clip_frame grpelem shared_content" id="u135288" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u135288_content"><!-- image -->
-             <img class="block temp_no_img_src" id="u135288_img" data-orig-src="images/qrcode_for_gh_4c79f9efdd27_258.jpg?crc=391363351" data-hidpi-src="images/qrcode_for_gh_4c79f9efdd27_258_2x.jpg?crc=4110085534" alt="" width="129" height="129" src="images/blank.gif?crc=4208392903"/>
+             <img class="block temp_no_img_src" id="u135288_img" data-orig-src="images/%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b7.jpg?crc=4059279697" data-hidpi-src="images/%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b7_2x.jpg?crc=4256456388" alt="" width="129" height="129" src="images/blank.gif?crc=4208392903"/>
             </div>
            </div>
           </div>
          </div>
         </div>
-        <div class="PamphletWidget clearfix grpelem" id="pamphletu193730" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem" id="u193735" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
-          <div class="popup_anchor" id="u193736popup">
-           <div class="Thumb popup_element clearfix" id="u193736" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
-            <div class="clip_frame grpelem shared_content" id="u193674" data-content-guid="u193674_content"><!-- svg -->
-             <img class="svg svg_mar temp_no_img_src" id="u193670" data-orig-src="images/qq.svg?crc=7035155" onload="this.style.height=(this.offsetWidth*48/48)+'px'" alt="" data-mu-svgfallback="images/qq_poster_.png?crc=3873004027" data-heightwidthratio="1" data-image-width="48" data-image-height="48" src="images/blank.gif?crc=4208392903"/>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor" id="u193731popup">
-          <div class="ContainerGroup clearfix" id="u193731" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
-           <div class="Container invi clearfix grpelem" id="u193732" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
-            <div class="clip_frame grpelem shared_content" id="u193779" data-content-guid="u193779_content"><!-- image -->
-             <img class="block temp_no_img_src" id="u193779_img" data-orig-src="images/qq%e7%be%a4.jpg?crc=291680259" data-hidpi-src="images/qq%e7%be%a4_2x.jpg?crc=363729988" alt="" data-heightwidthratio="1" data-image-width="129" data-image-height="129" src="images/blank.gif?crc=4208392903"/>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u133839" href="https://weibo.com/u/2833188061" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u133839_content"><!-- svg --><img class="svg temp_no_img_src" id="u133835" data-orig-src="images/%e5%be%ae%e5%8d%9a.svg?crc=13455382" width="48" height="48" alt="" title="微博" data-mu-svgfallback="images/%e5%be%ae%e5%8d%9a_poster_.png?crc=3944851971" src="images/blank.gif?crc=4208392903"/></a>
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u135356" href="https://space.bilibili.com/40511822/#/" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u135356_content"><!-- svg --><img class="svg temp_no_img_src" id="u135352" data-orig-src="images/bilibili.svg?crc=379900175" width="48" height="48" alt="" title="B站" data-mu-svgfallback="images/bilibili_poster_.png?crc=509786656" src="images/blank.gif?crc=4208392903"/></a>
-        <div class="PamphletWidget clearfix grpelem" id="pamphletu135384" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem" id="u135391" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
-          <div class="popup_anchor" id="u135392popup">
-           <div class="Thumb popup_element clearfix" id="u135392" title="邮箱" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
-            <div class="clip_frame grpelem shared_content" id="u135532" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u135532_content"><!-- svg -->
-             <img class="svg temp_no_img_src" id="u135533" data-orig-src="images/%e9%82%ae%e7%ae%b1.svg?crc=4071504067" width="48" height="48" alt="" data-mu-svgfallback="images/%e9%82%ae%e7%ae%b1_poster_.png?crc=4168517880" src="images/blank.gif?crc=4208392903"/>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor" id="u135395popup">
-          <div class="ContainerGroup clearfix" id="u135395" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
-           <div class="Container invi clearfix grpelem" id="u135396" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
-            <div class="clearfix grpelem shared_content" id="u135562-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u135562-4_content"><!-- content -->
-             <p>colorcg@qq.com</p>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="clearfix colelem" id="pu135036"><!-- group -->
-        <div class="grpelem shared_content" id="u135036" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u135036_content"><!-- simple frame --></div>
         <div class="PamphletWidget clearfix grpelem" id="pamphletu135568" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- none box -->
          <div class="ThumbGroup clearfix grpelem" id="u135579" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
           <div class="popup_anchor" id="u135581popup">
@@ -1725,7 +1712,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   </div>
   <div class="breakpoint" id="bp_1440" data-min-width="1281" data-max-width="1440"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u205665_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu217962_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu50616"><!-- group -->
      <span class="placeholder" data-placeholder-for="u50616_content"><!-- placeholder node --></span>
      <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu191252"><!-- vertical box -->
@@ -1881,7 +1868,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="anchor_item colelem placeholder" data-placeholder-for="guanyuwomen_content"><!-- placeholder node --></span>
      <div class="browser_width colelem temp_no_id" data-orig-id="u133811-bw">
       <div class="clearfix temp_no_id" data-orig-id="u133811"><!-- column -->
-       <div class="clearfix colelem temp_no_id" data-orig-id="ppamphletu135048"><!-- group -->
+       <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
+        <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u135532_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u135356_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u133839_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u193674_content"><!-- placeholder node --></span>
         <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135048"><!-- none box -->
          <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135059"><!-- none box -->
           <div class="popup_anchor temp_no_id" data-orig-id="u135061popup">
@@ -1898,43 +1890,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           </div>
          </div>
         </div>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu193730"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193735"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u193736popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193736"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u193674_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u193731popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193731"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193732"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u193779_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-        </div>
-        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u133839_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u135356_content"><!-- placeholder node --></span>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135384"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135391"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u135392popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="邮箱" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135392"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u135532_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u135395popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135395"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135396"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135562-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
-        <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
         <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135568"><!-- none box -->
          <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135579"><!-- none box -->
           <div class="popup_anchor temp_no_id" data-orig-id="u135581popup">
@@ -1985,7 +1940,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   </div>
   <div class="breakpoint" id="bp_1280" data-min-width="961" data-max-width="1280"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u205665_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu217962_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu50616"><!-- group -->
      <span class="placeholder" data-placeholder-for="u50616_content"><!-- placeholder node --></span>
      <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu191252"><!-- vertical box -->
@@ -2373,7 +2328,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="anchor_item colelem placeholder" data-placeholder-for="guanyuwomen_content"><!-- placeholder node --></span>
      <div class="browser_width colelem temp_no_id" data-orig-id="u133811-bw">
       <div class="clearfix temp_no_id" data-orig-id="u133811"><!-- column -->
-       <div class="clearfix colelem temp_no_id" data-orig-id="ppamphletu135048"><!-- group -->
+       <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
+        <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u135532_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u135356_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u133839_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u193674_content"><!-- placeholder node --></span>
         <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135048"><!-- none box -->
          <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135059"><!-- none box -->
           <div class="popup_anchor temp_no_id" data-orig-id="u135061popup">
@@ -2390,43 +2350,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           </div>
          </div>
         </div>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu193730"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193735"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u193736popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193736"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u193674_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u193731popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193731"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193732"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u193779_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-        </div>
-        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u133839_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u135356_content"><!-- placeholder node --></span>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135384"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135391"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u135392popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="邮箱" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135392"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u135532_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u135395popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135395"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135396"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135562-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
-        <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
         <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135568"><!-- none box -->
          <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135579"><!-- none box -->
           <div class="popup_anchor temp_no_id" data-orig-id="u135581popup">
@@ -2477,7 +2400,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   </div>
   <div class="breakpoint" id="bp_960" data-min-width="481" data-max-width="960"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u205665_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu217962_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu50616"><!-- group -->
      <span class="placeholder" data-placeholder-for="u50616_content"><!-- placeholder node --></span>
      <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu191252"><!-- vertical box -->
@@ -2919,113 +2842,79 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="anchor_item colelem placeholder" data-placeholder-for="guanyuwomen_content"><!-- placeholder node --></span>
      <div class="browser_width colelem temp_no_id" data-orig-id="u133811-bw">
       <div class="clearfix temp_no_id" data-orig-id="u133811"><!-- column -->
-       <div class="clearfix colelem" id="ppamphletu135384"><!-- group -->
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135384"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135391"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u135392popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="邮箱" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135392"><!-- group -->
-            <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135532"><!-- svg -->
-             <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e9%82%ae%e7%ae%b1.svg?crc=4071504067" width="36" height="36" alt="" data-mu-svgfallback="images/%e9%82%ae%e7%ae%b1_poster_.png?crc=4168517880" data-orig-id="u135533" src="images/blank.gif?crc=4208392903"/>
+       <div class="position_content" id="u133811_position_content">
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
+         <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="mailto:colorcg@qq.com" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u135532"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e9%82%ae%e7%ae%b1.svg?crc=4071504067" width="36" height="36" alt="" title="colorcg@qq.com" data-mu-svgfallback="images/%e9%82%ae%e7%ae%b1_poster_.png?crc=4168517880" data-orig-id="u135533" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://space.bilibili.com/40511822/#/" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u135356"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/bilibili.svg?crc=379900175" width="36" height="36" alt="" title="B站" data-mu-svgfallback="images/bilibili_poster_.png?crc=509786656" data-orig-id="u135352" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://weibo.com/u/2833188061" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u133839"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e5%8d%9a.svg?crc=13455382" width="36" height="36" alt="" title="微博" data-mu-svgfallback="images/%e5%be%ae%e5%8d%9a_poster_.png?crc=3944851971" data-orig-id="u133835" src="images/blank.gif?crc=4208392903"/></a>
+         <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://qm.qq.com/cgi-bin/qm/qr?k=wtZhqRI5qL8s5gmlZjjaAHvT9gpOHkdq" target="_blank" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter" data-orig-id="u193674"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/qq.svg?crc=7035155" onload="this.style.height=(this.offsetWidth*36/36)+'px'" alt="" title="qq" data-mu-svgfallback="images/qq_poster_.png?crc=3873004027" data-heightwidthratio="1" data-image-width="36" data-image-height="36" data-orig-id="u193670" src="images/blank.gif?crc=4208392903"/></a>
+         <div class="PamphletWidget clearfix allow_click_through grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135048"><!-- none box -->
+          <div class="popup_anchor allow_click_through colelem temp_no_id" data-col-pos="1" data-orig-id="u135049popup">
+           <div class="ContainerGroup clearfix temp_no_id" data-col-pos="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135049"><!-- none box -->
+            <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135050"><!-- group -->
+             <span class="clip_frame grpelem placeholder" data-placeholder-for="u135288_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+          </div>
+          <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="0" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="u135059"><!-- none box -->
+           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u135061popup">
+            <div class="Thumb popup_element clearfix temp_no_id" data-col-pos="0" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u135061popup" data-orig-id="u135061"><!-- group -->
+             <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135186"><!-- svg -->
+              <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1.svg?crc=531174090" width="36" height="36" alt="" data-mu-svgfallback="images/%e5%be%ae%e4%bf%a1_poster_.png?crc=14376098" data-orig-id="u135187" src="images/blank.gif?crc=4208392903"/>
+             </div>
             </div>
            </div>
           </div>
          </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u135395popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135395"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135396"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135562-4_content"><!-- placeholder node --></span>
+         <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135568"><!-- none box -->
+          <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135579"><!-- none box -->
+           <div class="popup_anchor temp_no_id" data-orig-id="u135581popup">
+            <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135581"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135700-4_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+           <div class="popup_anchor temp_no_id" data-orig-id="u135712popup">
+            <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135712"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135743-4_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+           <div class="popup_anchor temp_no_id" data-orig-id="u135793popup">
+            <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135793"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135846-4_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+           <div class="popup_anchor temp_no_id" data-orig-id="u135855popup">
+            <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135855"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135881-4_content"><!-- placeholder node --></span>
+            </div>
            </div>
           </div>
-         </div>
-        </div>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://space.bilibili.com/40511822/#/" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u135356"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/bilibili.svg?crc=379900175" width="36" height="36" alt="" title="B站" data-mu-svgfallback="images/bilibili_poster_.png?crc=509786656" data-orig-id="u135352" src="images/blank.gif?crc=4208392903"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://weibo.com/u/2833188061" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u133839"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e5%8d%9a.svg?crc=13455382" width="36" height="36" alt="" title="微博" data-mu-svgfallback="images/%e5%be%ae%e5%8d%9a_poster_.png?crc=3944851971" data-orig-id="u133835" src="images/blank.gif?crc=4208392903"/></a>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135048"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135059"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u135061popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135061"><!-- group -->
-            <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135186"><!-- svg -->
-             <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1.svg?crc=531174090" width="36" height="36" alt="" data-mu-svgfallback="images/%e5%be%ae%e4%bf%a1_poster_.png?crc=14376098" data-orig-id="u135187" src="images/blank.gif?crc=4208392903"/>
+          <div class="popup_anchor temp_no_id" data-orig-id="u135569popup">
+           <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135569"><!-- none box -->
+            <div class="Container clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135570"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135670-4_content"><!-- placeholder node --></span>
+            </div>
+            <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135729"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135896-4_content"><!-- placeholder node --></span>
+            </div>
+            <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135810"><!-- group -->
+             <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136238"><!-- image -->
+              <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98150x196.jpg?crc=3780211569" data-hidpi-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98150x196_2x.jpg?crc=351449926" alt="" width="150" height="196" data-orig-id="u136238_img" src="images/blank.gif?crc=4208392903"/>
+             </div>
+             <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136263"><!-- image -->
+              <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e6%94%af%e4%bb%98%e5%ae%9d150x196.jpg?crc=3946685659" data-hidpi-src="images/%e6%94%af%e4%bb%98%e5%ae%9d150x196_2x.jpg?crc=4239107747" alt="" width="150" height="196" data-orig-id="u136263_img" src="images/blank.gif?crc=4208392903"/>
+             </div>
+            </div>
+            <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135872"><!-- group -->
+             <span class="clearfix grpelem placeholder" data-placeholder-for="u135908-4_content"><!-- placeholder node --></span>
             </div>
            </div>
           </div>
          </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u135049popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135049"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135050"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u135288_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
         </div>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu193730"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193735"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u193736popup">
-           <div class="Thumb popup_element clearfix temp_no_id" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193736"><!-- group -->
-            <div class="clip_frame grpelem temp_no_id" data-orig-id="u193674"><!-- svg -->
-             <img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/qq.svg?crc=7035155" onload="this.style.height=(this.offsetWidth*36/36)+'px'" alt="" data-mu-svgfallback="images/qq_poster_.png?crc=3873004027" data-heightwidthratio="1" data-image-width="36" data-image-height="36" data-orig-id="u193670" src="images/blank.gif?crc=4208392903"/>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u193731popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193731"><!-- none box -->
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193732"><!-- group -->
-            <span class="clip_frame grpelem placeholder" data-placeholder-for="u193779_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-        </div>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u137280-4_content"><!-- placeholder node --></span>
        </div>
-       <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
-        <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
-        <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135568"><!-- none box -->
-         <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135579"><!-- none box -->
-          <div class="popup_anchor temp_no_id" data-orig-id="u135581popup">
-           <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135581"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135700-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-          <div class="popup_anchor temp_no_id" data-orig-id="u135712popup">
-           <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135712"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135743-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-          <div class="popup_anchor temp_no_id" data-orig-id="u135793popup">
-           <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135793"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135846-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-          <div class="popup_anchor temp_no_id" data-orig-id="u135855popup">
-           <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135855"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135881-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-         <div class="popup_anchor temp_no_id" data-orig-id="u135569popup">
-          <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135569"><!-- none box -->
-           <div class="Container clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135570"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135670-4_content"><!-- placeholder node --></span>
-           </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135729"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135896-4_content"><!-- placeholder node --></span>
-           </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135810"><!-- group -->
-            <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136238"><!-- image -->
-             <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98150x196.jpg?crc=3780211569" data-hidpi-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98150x196_2x.jpg?crc=351449926" alt="" width="150" height="196" data-orig-id="u136238_img" src="images/blank.gif?crc=4208392903"/>
-            </div>
-            <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136263"><!-- image -->
-             <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e6%94%af%e4%bb%98%e5%ae%9d150x196.jpg?crc=3946685659" data-hidpi-src="images/%e6%94%af%e4%bb%98%e5%ae%9d150x196_2x.jpg?crc=4239107747" alt="" width="150" height="196" data-orig-id="u136263_img" src="images/blank.gif?crc=4208392903"/>
-            </div>
-           </div>
-           <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135872"><!-- group -->
-            <span class="clearfix grpelem placeholder" data-placeholder-for="u135908-4_content"><!-- placeholder node --></span>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <span class="clearfix colelem placeholder" data-placeholder-for="u137280-4_content"><!-- placeholder node --></span>
       </div>
      </div>
     </div>
@@ -3033,7 +2922,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   </div>
   <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="size_fixed grpelem placeholder" data-placeholder-for="u205665_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu217962_content"><!-- placeholder node --></span>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu50616"><!-- group -->
      <div class="browser_width" id="u50616-bw">
       <span class="placeholder" data-placeholder-for="u50616_content"><!-- placeholder node --></span>
@@ -3347,79 +3236,61 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="browser_width grpelem temp_no_id" data-orig-id="u133811-bw">
        <div class="temp_no_id" data-orig-id="u133811"><!-- column -->
         <div class="clearfix" id="u133811_align_to_page">
-         <div class="position_content" id="u133811_position_content">
-          <div class="clearfix colelem temp_no_id" data-orig-id="ppamphletu135384"><!-- group -->
-           <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135384"><!-- none box -->
-            <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135391"><!-- none box -->
-             <div class="popup_anchor temp_no_id" data-orig-id="u135392popup">
-              <div class="Thumb popup_element clearfix temp_no_id" title="邮箱" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135392"><!-- group -->
-               <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135532"><!-- svg -->
-                <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e9%82%ae%e7%ae%b1.svg?crc=4071504067" width="32" height="32" alt="" data-mu-svgfallback="images/%e9%82%ae%e7%ae%b1_poster_.png?crc=4168517880" data-orig-id="u135533" src="images/blank.gif?crc=4208392903"/>
-               </div>
-              </div>
-             </div>
-            </div>
-            <div class="popup_anchor temp_no_id" data-orig-id="u135395popup">
-             <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135395"><!-- none box -->
-              <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135396"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135562-4_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-            </div>
-           </div>
-           <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://space.bilibili.com/40511822/#/" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u135356"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/bilibili.svg?crc=379900175" width="32" height="32" alt="" title="B站" data-mu-svgfallback="images/bilibili_poster_.png?crc=509786656" data-orig-id="u135352" src="images/blank.gif?crc=4208392903"/></a>
-           <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://weibo.com/u/2833188061" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u133839"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e5%8d%9a.svg?crc=13455382" width="32" height="32" alt="" title="微博" data-mu-svgfallback="images/%e5%be%ae%e5%8d%9a_poster_.png?crc=3944851971" data-orig-id="u133835" src="images/blank.gif?crc=4208392903"/></a>
-          </div>
-          <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
-           <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
-           <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135568"><!-- none box -->
-            <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135579"><!-- none box -->
-             <div class="popup_anchor temp_no_id" data-orig-id="u135581popup">
-              <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135581"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135700-4_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-             <div class="popup_anchor temp_no_id" data-orig-id="u135712popup">
-              <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135712"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135743-4_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-             <div class="popup_anchor temp_no_id" data-orig-id="u135793popup">
-              <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135793"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135846-4_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-             <div class="popup_anchor temp_no_id" data-orig-id="u135855popup">
-              <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135855"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135881-4_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-            </div>
-            <div class="popup_anchor temp_no_id" data-orig-id="u135569popup">
-             <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135569"><!-- none box -->
-              <div class="Container clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135570"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135670-4_content"><!-- placeholder node --></span>
-              </div>
-              <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135729"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135896-4_content"><!-- placeholder node --></span>
-              </div>
-              <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135810"><!-- group -->
-               <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136238"><!-- image -->
-                <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98136x178.jpg?crc=197531633" data-hidpi-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98136x178_2x.jpg?crc=4089297323" alt="" width="136" height="177" data-orig-id="u136238_img" src="images/blank.gif?crc=4208392903"/>
-               </div>
-               <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136263"><!-- image -->
-                <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e6%94%af%e4%bb%98%e5%ae%9d136x177.jpg?crc=207150451" data-hidpi-src="images/%e6%94%af%e4%bb%98%e5%ae%9d136x177_2x.jpg?crc=4128988804" alt="" width="136" height="177" data-orig-id="u136263_img" src="images/blank.gif?crc=4208392903"/>
-               </div>
-              </div>
-              <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135872"><!-- group -->
-               <span class="clearfix grpelem placeholder" data-placeholder-for="u135908-4_content"><!-- placeholder node --></span>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <span class="clearfix colelem placeholder" data-placeholder-for="u137280-4_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem" id="pu193674"><!-- group -->
+          <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://qm.qq.com/cgi-bin/qm/qr?k=wtZhqRI5qL8s5gmlZjjaAHvT9gpOHkdq" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u193674"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/qq.svg?crc=7035155" width="32" height="32" alt="" title="qq" data-mu-svgfallback="images/qq_poster_.png?crc=3873004027" data-orig-id="u193670" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://weibo.com/u/2833188061" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u133839"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e5%8d%9a.svg?crc=13455382" width="32" height="32" alt="" title="微博" data-mu-svgfallback="images/%e5%be%ae%e5%8d%9a_poster_.png?crc=3944851971" data-orig-id="u133835" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://space.bilibili.com/40511822/#/" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u135356"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/bilibili.svg?crc=379900175" width="32" height="32" alt="" title="B站" data-mu-svgfallback="images/bilibili_poster_.png?crc=509786656" data-orig-id="u135352" src="images/blank.gif?crc=4208392903"/></a>
+          <a class="nonblock nontext clip_frame grpelem temp_no_id" href="mailto:colorcg@qq.com" target="_blank" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u135532"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/%e9%82%ae%e7%ae%b1.svg?crc=4071504067" width="32" height="32" alt="" title="colorcg@qq.com" data-mu-svgfallback="images/%e9%82%ae%e7%ae%b1_poster_.png?crc=4168517880" data-orig-id="u135533" src="images/blank.gif?crc=4208392903"/></a>
          </div>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu135036"><!-- group -->
+          <span class="grpelem placeholder" data-placeholder-for="u135036_content"><!-- placeholder node --></span>
+          <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu135568"><!-- none box -->
+           <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135579"><!-- none box -->
+            <div class="popup_anchor temp_no_id" data-orig-id="u135581popup">
+             <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135581"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135700-4_content"><!-- placeholder node --></span>
+             </div>
+            </div>
+            <div class="popup_anchor temp_no_id" data-orig-id="u135712popup">
+             <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135712"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135743-4_content"><!-- placeholder node --></span>
+             </div>
+            </div>
+            <div class="popup_anchor temp_no_id" data-orig-id="u135793popup">
+             <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135793"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135846-4_content"><!-- placeholder node --></span>
+             </div>
+            </div>
+            <div class="popup_anchor temp_no_id" data-orig-id="u135855popup">
+             <div class="Thumb popup_element clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135855"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135881-4_content"><!-- placeholder node --></span>
+             </div>
+            </div>
+           </div>
+           <div class="popup_anchor temp_no_id" data-orig-id="u135569popup">
+            <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135569"><!-- none box -->
+             <div class="Container clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135570"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135670-4_content"><!-- placeholder node --></span>
+             </div>
+             <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135729"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135896-4_content"><!-- placeholder node --></span>
+             </div>
+             <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135810"><!-- group -->
+              <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136238"><!-- image -->
+               <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98100x131.jpg?crc=277553352" data-hidpi-src="images/%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98100x131_2x.jpg?crc=337549234" alt="" width="100" height="130" data-orig-id="u136238_img" src="images/blank.gif?crc=4208392903"/>
+              </div>
+              <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u136263"><!-- image -->
+               <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e6%94%af%e4%bb%98%e5%ae%9d100x131.jpg?crc=499911657" data-hidpi-src="images/%e6%94%af%e4%bb%98%e5%ae%9d100x131_2x.jpg?crc=3924888324" alt="" width="100" height="130" data-orig-id="u136263_img" src="images/blank.gif?crc=4208392903"/>
+              </div>
+             </div>
+             <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135872"><!-- group -->
+              <span class="clearfix grpelem placeholder" data-placeholder-for="u135908-4_content"><!-- placeholder node --></span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <span class="clearfix colelem placeholder" data-placeholder-for="u137280-4_content"><!-- placeholder node --></span>
         </div>
        </div>
       </div>
@@ -3436,26 +3307,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="popup_anchor temp_no_id" data-orig-id="u135049popup">
         <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135049"><!-- none box -->
          <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135050"><!-- group -->
-          <span class="clip_frame grpelem placeholder" data-placeholder-for="u135288_content"><!-- placeholder node --></span>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="PamphletWidget clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="pamphletu193730"><!-- none box -->
-       <div class="ThumbGroup clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193735"><!-- none box -->
-        <div class="popup_anchor temp_no_id" data-orig-id="u193736popup">
-         <div class="Thumb popup_element clearfix temp_no_id" title="微信公众号" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193736"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193674"><!-- svg -->
-           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/qq.svg?crc=7035155" width="32" height="32" alt="" data-mu-svgfallback="images/qq_poster_.png?crc=3873004027" data-orig-id="u193670" src="images/blank.gif?crc=4208392903"/>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="popup_anchor temp_no_id" data-orig-id="u193731popup">
-        <div class="ContainerGroup clearfix temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193731"><!-- none box -->
-         <div class="Container invi clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193732"><!-- group -->
-          <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u193779"><!-- image -->
-           <img class="block temp_no_id temp_no_img_src" data-orig-src="images/qq%e7%be%a4.jpg?crc=291680259" data-hidpi-src="images/qq%e7%be%a4_2x.jpg?crc=363729988" alt="" width="129" height="129" data-orig-id="u193779_img" src="images/blank.gif?crc=4208392903"/>
+          <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u135288"><!-- image -->
+           <img class="block temp_no_id temp_no_img_src" data-orig-src="images/%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b780x80.jpg?crc=190481773" data-hidpi-src="images/%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b780x80_2x.jpg?crc=4155877190" alt="" width="80" height="80" data-orig-id="u135288_img" src="images/blank.gif?crc=4208392903"/>
           </div>
          </div>
         </div>
@@ -3493,10 +3346,9 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1440', '#bp_1280', '#bp_960', '#bp_480'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#pamphletu135048', ['#bp_infinity', '#bp_1440', '#bp_1280', '#bp_960', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu135048 */
-Muse.Utils.initWidget('#pamphletu193730', ['#bp_infinity', '#bp_1440', '#bp_1280', '#bp_960', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu193730 */
-Muse.Utils.initWidget('#pamphletu135384', ['#bp_infinity', '#bp_1440', '#bp_1280', '#bp_960', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu135384 */
+Muse.Utils.initWidget('#pamphletu135048', ['#bp_infinity', '#bp_1440', '#bp_1280', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu135048 */
 Muse.Utils.initWidget('#pamphletu135568', ['#bp_infinity', '#bp_1440', '#bp_1280', '#bp_960', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu135568 */
+Muse.Utils.initWidget('#pamphletu135048', ['#bp_960'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu135048 */
 Muse.Utils.initWidget('#pamphletu205515', ['#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu205515 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */

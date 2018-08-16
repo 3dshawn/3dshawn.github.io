@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://colorcg.com/index.html</loc>
-    <lastmod>2018-08-15</lastmod>
+    <lastmod>2018-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -501,31 +501,25 @@
       <image:loc>http://colorcg.com/images/lumion.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://colorcg.com/images/qrcode_for_gh_4c79f9efdd27_258.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://colorcg.com/images/qrcode_for_gh_4c79f9efdd27_258_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://colorcg.com/images/qq.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://colorcg.com/images/qq%E7%BE%A4.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://colorcg.com/images/qq%E7%BE%A4_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://colorcg.com/images/%E5%BE%AE%E5%8D%9A.svg</image:loc>
+      <image:loc>http://colorcg.com/images/%E9%82%AE%E7%AE%B1.svg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://colorcg.com/images/bilibili.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://colorcg.com/images/%E9%82%AE%E7%AE%B1.svg</image:loc>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E5%8D%9A.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/qq.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98.jpg</image:loc>
@@ -552,21 +546,27 @@
       <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D150x196_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98136x178.jpg</image:loc>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98100x131.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98136x178_2x.jpg</image:loc>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98100x131_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D136x177.jpg</image:loc>
+      <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D100x131.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D136x177_2x.jpg</image:loc>
+      <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D100x131_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B780x80.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://colorcg.com/images/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B780x80_2x.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://colorcg.com/assets/responsive-button-hover.mulib</loc>
-    <lastmod>2017-10-30</lastmod>
+    <loc>http://colorcg.com/assets/loading.gif</loc>
+    <lastmod>2018-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
