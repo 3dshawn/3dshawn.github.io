@@ -1,18 +1,15 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1534439277156">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1534951372841">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-__.css" crc="194695091" ref="index"/>
+    <file name="master_a-__.css" crc="4099760479" ref="index"/>
     <file name="nomq_preview_master_a-__.css" crc="3995112733" ref="index"/>
-    <file name="index.css" crc="4185489473" ref="index"/>
-    <file name="nomq_index.css" crc="4217490486" ref="index"/>
+    <file name="index.css" crc="420025154" ref="index"/>
+    <file name="nomq_index.css" crc="511412318" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="themify.woff" crc="3800545150"/>
     <file name="themify.eot" crc="259172999"/>
     <file name="themify.svg" crc="3998433262"/>
-  </folder>
-  <folder name="assets">
-    <file name="loading.gif" crc="534157861" seo="true" mt="1534433220000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -30,6 +27,7 @@
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
+    <file name="colorcg-favicon.ico" crc="4135762521" ref="index"/>
     <file name="colorcg_04.svg" crc="3760386758" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1390,38 +1388,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="lumion_poster_.png" crc="197904111" ref="index"/>
-    <file name="邮箱.svg" crc="4071504067" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="邮箱_poster_.png" crc="4168517880" ref="index"/>
-    <file name="bilibili.svg" crc="379900175" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="bilibili_poster_.png" crc="509786656" ref="index"/>
-    <file name="微博.svg" crc="13455382" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="微博_poster_.png" crc="3944851971" ref="index"/>
-    <file name="qq.svg" crc="7035155" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="qq_poster_.png" crc="3873004027" ref="index"/>
     <file name="微信.svg" crc="531174090" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1442,6 +1408,38 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="qq.svg" crc="7035155" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="qq_poster_.png" crc="3873004027" ref="index"/>
+    <file name="微博.svg" crc="13455382" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="微博_poster_.png" crc="3944851971" ref="index"/>
+    <file name="bilibili.svg" crc="379900175" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bilibili_poster_.png" crc="509786656" ref="index"/>
+    <file name="邮箱.svg" crc="4071504067" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="邮箱_poster_.png" crc="4168517880" ref="index"/>
     <file name="微信支付.jpg" crc="337549234" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1474,6 +1472,12 @@
     <file name="支付宝150x196_2x.jpg" crc="4239107747" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="微信公众号80x80.jpg" crc="190481773" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="微信公众号80x80_2x.jpg" crc="4155877190" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="微信支付100x131.jpg" crc="277553352" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -1486,13 +1490,7 @@
     <file name="支付宝100x131_2x.jpg" crc="3924888324" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="微信公众号80x80.jpg" crc="190481773" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="微信公众号80x80_2x.jpg" crc="4155877190" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="449222346" seo="true" mt="1534438625796" redirect="true"/>
+  <file name="index.html" crc="208239213" seo="true" mt="1534951062910" redirect="true"/>
 </manifest>
