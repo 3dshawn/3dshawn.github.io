@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535571817239">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535572905992">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-__.css" crc="111513071" ref="index"/>
-    <file name="nomq_preview_master_a-__.css" crc="3860596869" ref="index"/>
-    <file name="index.css" crc="85098384" ref="index"/>
-    <file name="nomq_index.css" crc="265205413" ref="index"/>
+    <file name="master_a-__.css" crc="280258821" ref="index"/>
+    <file name="nomq_preview_master_a-__.css" crc="4268503139" ref="index"/>
+    <file name="index.css" crc="511521743" ref="index"/>
+    <file name="nomq_index.css" crc="3859337168" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="themify.woff" crc="3800545150"/>
@@ -2573,5 +2573,5 @@
     </file>
     <file name="微博_poster_2.png" crc="3944851971" ref="index"/>
   </folder>
-  <file name="index.html" crc="3989487495" seo="true" mt="1535571103314" redirect="true"/>
+  <file name="index.html" crc="18191076" seo="true" mt="1535572514203" redirect="true"/>
 </manifest>
