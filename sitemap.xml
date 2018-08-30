@@ -660,4 +660,10 @@
       <image:loc>http://colorcg.com/images/%E6%94%AF%E4%BB%98%E5%AE%9D100x131_2x.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>http://colorcg.com/assets/colorcg_03.png</loc>
+    <lastmod>2018-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

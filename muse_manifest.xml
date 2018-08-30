@@ -1,10 +1,13 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535620447029">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535622325156">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-__.css" crc="3934770348" ref="index"/>
-    <file name="nomq_preview_master_a-__.css" crc="4268503139" ref="index"/>
-    <file name="index.css" crc="3759593331" ref="index"/>
-    <file name="nomq_index.css" crc="3802475514" ref="index"/>
+    <file name="master_cg.css" crc="3804864450" ref="index"/>
+    <file name="nomq_preview_master_cg.css" crc="4268503139" ref="index"/>
+    <file name="index.css" crc="4189460262" ref="index"/>
+    <file name="nomq_index.css" crc="4173173567" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="colorcg_03.png" crc="3951764546" seo="true" mt="1535592776000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -2608,5 +2611,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4203033404" seo="true" mt="1535620098005" redirect="true"/>
+  <file name="index.html" crc="506868360" seo="true" mt="1535621936909" redirect="true"/>
 </manifest>
