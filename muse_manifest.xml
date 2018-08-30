@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535616115663">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535619247576">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-__.css" crc="441642640" ref="index"/>
     <file name="nomq_preview_master_a-__.css" crc="4268503139" ref="index"/>
-    <file name="index.css" crc="4131184299" ref="index"/>
-    <file name="nomq_index.css" crc="3799147875" ref="index"/>
+    <file name="index.css" crc="421462890" ref="index"/>
+    <file name="nomq_index.css" crc="3838704179" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -281,14 +281,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="cgsociety_poster_.png" crc="3778552548" ref="index"/>
-    <file name="steam.svg" crc="271378679" seo="true" ref="index">
+    <file name="steam.svg" crc="346996518" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="steam_poster_.png" crc="4045793524" ref="index"/>
+    <file name="steam_poster_.png" crc="3918839407" ref="index"/>
     <file name="哔哩哔哩.svg" crc="379900175" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2608,5 +2608,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3834904878" seo="true" mt="1535615733812" redirect="true"/>
+  <file name="index.html" crc="170547968" seo="true" mt="1535618882738" redirect="true"/>
 </manifest>
