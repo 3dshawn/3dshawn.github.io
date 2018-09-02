@@ -1,13 +1,13 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535622325156">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535903279550">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_cg.css" crc="3804864450" ref="index"/>
-    <file name="nomq_preview_master_cg.css" crc="4268503139" ref="index"/>
-    <file name="index.css" crc="4189460262" ref="index"/>
+    <file name="master_cg.css" crc="393998751" ref="index"/>
+    <file name="nomq_preview_master_cg.css" crc="232465605" ref="index"/>
+    <file name="index.css" crc="3977760046" ref="index"/>
     <file name="nomq_index.css" crc="4173173567" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="colorcg_03.png" crc="3951764546" seo="true" mt="1535592776000"/>
+    <file name="colorcg_03.png" crc="3786230190" seo="true" mt="1535873844000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -1615,14 +1615,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="seamless textures_poster_.png" crc="4113486126" ref="index"/>
-    <file name="新cg儿.svg" crc="239627917" seo="true" ref="index">
+    <file name="新cg儿.svg" crc="217871751" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="新cg儿_poster_.png" crc="468781387" ref="index"/>
+    <file name="新cg儿_poster_.png" crc="4134137022" ref="index"/>
     <file name="cg资源网.svg" crc="4060508586" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1687,14 +1687,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="cg persia_poster_.png" crc="3969754270" ref="index"/>
-    <file name="人人素材.svg" crc="4055227872" seo="true" ref="index">
+    <file name="人人素材.svg" crc="155839482" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="人人素材_poster_.png" crc="35058395" ref="index"/>
+    <file name="人人素材_poster_.png" crc="3937597650" ref="index"/>
     <file name="龋齿一号.svg" crc="361813037" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1727,14 +1727,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="ghostxx_poster_.png" crc="4163837781" ref="index"/>
-    <file name="highend3d.svg" crc="29009514" seo="true" ref="index">
+    <file name="highend3d.svg" crc="4236475911" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="highend3d_poster_.png" crc="465104636" ref="index"/>
+    <file name="highend3d_poster_.png" crc="296558620" ref="index"/>
     <file name="top1cg.svg" crc="4104352920" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1982,14 +1982,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="下载_poster_.png" crc="106927601" ref="index"/>
-    <file name="3dsmax.svg" crc="333942872" seo="true" ref="index">
+    <file name="3dsmax.svg" crc="3860482908" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="3dsmax_poster_.png" crc="524280152" ref="index"/>
+    <file name="3dsmax_poster_.png" crc="4057336562" ref="index"/>
     <file name="maya.svg" crc="4200753887" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1998,14 +1998,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="maya_poster_.png" crc="462728324" ref="index"/>
-    <file name="c4d.svg" crc="3876210957" seo="true" ref="index">
+    <file name="c4d.svg" crc="213127679" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="c4d_poster_.png" crc="3904114173" ref="index"/>
+    <file name="c4d_poster_.png" crc="89294431" ref="index"/>
     <file name="youtube2.svg" crc="4133529760" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2184,14 +2184,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="marvelous_poster_.png" crc="3807048617" ref="index"/>
-    <file name="speedtree.svg" crc="182101615" seo="true" ref="index">
+    <file name="speedtree.svg" crc="4100582392" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="speedtree_poster_.png" crc="154260265" ref="index"/>
+    <file name="speedtree_poster_.png" crc="416291108" ref="index"/>
     <file name="photoshop.svg" crc="503781032" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2315,14 +2315,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="animate_poster_.png" crc="343634876" ref="index"/>
-    <file name="inkscape.svg" crc="3769401794" seo="true" ref="index">
+    <file name="inkscape.svg" crc="435973899" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="inkscape_poster_.png" crc="337874051" ref="index"/>
+    <file name="inkscape_poster_.png" crc="454446977" ref="index"/>
     <file name="afinity.svg" crc="323800414" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2371,14 +2371,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="after effects_poster_.png" crc="4036921045" ref="index"/>
-    <file name="final_cut_pro.svg" crc="180595310" seo="true" ref="index">
+    <file name="final_cut_pro.svg" crc="4019539073" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="final_cut_pro_poster_.png" crc="309970814" ref="index"/>
+    <file name="final_cut_pro_poster_.png" crc="3965217889" ref="index"/>
     <file name="motion.svg" crc="4024148126" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2611,5 +2611,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="506868360" seo="true" mt="1535621936909" redirect="true"/>
+  <file name="index.html" crc="119969091" seo="true" mt="1535902900991" redirect="true"/>
 </manifest>
