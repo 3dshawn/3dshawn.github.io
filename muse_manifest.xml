@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536246610659">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536248261336">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_cg.css" crc="4054585935" ref="index"/>
     <file name="nomq_preview_master_cg.css" crc="232465605" ref="index"/>
-    <file name="index.css" crc="260213797" ref="index"/>
-    <file name="nomq_index.css" crc="4128169683" ref="index"/>
+    <file name="index.css" crc="432901143" ref="index"/>
+    <file name="nomq_index.css" crc="4272897476" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="icon.png" crc="433950239" seo="true" mt="1536237700000"/>
@@ -2611,5 +2611,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3931171802" seo="true" mt="1536246161441" redirect="true"/>
+  <file name="index.html" crc="4097153675" seo="true" mt="1536247855613" redirect="true"/>
 </manifest>
