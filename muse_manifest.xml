@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1535903279550">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536220489688">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_cg.css" crc="393998751" ref="index"/>
-    <file name="nomq_preview_master_cg.css" crc="232465605" ref="index"/>
-    <file name="index.css" crc="3977760046" ref="index"/>
-    <file name="nomq_index.css" crc="4173173567" ref="index"/>
+    <file name="master_cg.css" crc="4180599680" ref="index"/>
+    <file name="nomq_preview_master_cg.css" crc="4268503139" ref="index"/>
+    <file name="index.css" crc="309712934" ref="index"/>
+    <file name="nomq_index.css" crc="3868859846" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="colorcg_03.png" crc="3786230190" seo="true" mt="1535873844000"/>
@@ -25,7 +25,7 @@
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="colorcg-favicon.ico" crc="4135762521" ref="index"/>
+    <file name="colorcg-favicon.ico" crc="269995307" ref="index"/>
     <file name="colorcg_04.svg" crc="3760386758" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -1727,14 +1727,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="ghostxx_poster_.png" crc="4163837781" ref="index"/>
-    <file name="highend3d.svg" crc="4236475911" seo="true" ref="index">
+    <file name="highend3d.svg" crc="3799939087" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="highend3d_poster_.png" crc="296558620" ref="index"/>
+    <file name="highend3d_poster_.png" crc="3918414350" ref="index"/>
     <file name="top1cg.svg" crc="4104352920" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2611,5 +2611,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="119969091" seo="true" mt="1535902900991" redirect="true"/>
+  <file name="index.html" crc="4287941331" seo="true" mt="1536219409175" redirect="true"/>
 </manifest>
