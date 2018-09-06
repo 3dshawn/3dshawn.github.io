@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536249798521">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536252408945">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_cg.css" crc="4008520063" ref="index"/>
-    <file name="nomq_preview_master_cg.css" crc="4110502834" ref="index"/>
-    <file name="index.css" crc="37603487" ref="index"/>
-    <file name="nomq_index.css" crc="458916414" ref="index"/>
+    <file name="master_cg.css" crc="3957477580" ref="index"/>
+    <file name="nomq_preview_master_cg.css" crc="3940364271" ref="index"/>
+    <file name="index.css" crc="494487301" ref="index"/>
+    <file name="nomq_index.css" crc="4141371145" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="icon.png" crc="433950239" seo="true" mt="1536237700000"/>
@@ -2515,18 +2515,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="微信_poster_.png" crc="14376098" ref="index"/>
-    <file name="微信公众号.jpg" crc="4059279697" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="微信公众号_2x.jpg" crc="4256456388" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="qq.svg" crc="7035155" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2591,12 +2579,6 @@
     <file name="支付宝150x196_2x.jpg" crc="4239107747" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="微信公众号80x80.jpg" crc="190481773" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="微信公众号80x80_2x.jpg" crc="4155877190" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="微信支付100x131.jpg" crc="277553352" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -2610,6 +2592,20 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="微信公众号.png" crc="4150891170" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="微信公众号_2x.png" crc="4150891170" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="115488556" seo="true" mt="1536249363365" redirect="true"/>
+  <file name="index.html" crc="4046382808" seo="true" mt="1536251976330" redirect="true"/>
 </manifest>
