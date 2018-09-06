@@ -1,13 +1,13 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536220489688">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="false" exportTarget="other" domain="colorcg.com" resolutions="1x,2x" timestamp="1536243894021">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_cg.css" crc="4180599680" ref="index"/>
-    <file name="nomq_preview_master_cg.css" crc="4268503139" ref="index"/>
-    <file name="index.css" crc="309712934" ref="index"/>
-    <file name="nomq_index.css" crc="3868859846" ref="index"/>
+    <file name="master_cg.css" crc="4054585935" ref="index"/>
+    <file name="nomq_preview_master_cg.css" crc="232465605" ref="index"/>
+    <file name="index.css" crc="312021782" ref="index"/>
+    <file name="nomq_index.css" crc="252497824" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="colorcg_03.png" crc="3786230190" seo="true" mt="1535873844000"/>
+    <file name="icon.png" crc="433950239" seo="true" mt="1536237700000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -25,7 +25,7 @@
     <file name="require.js" crc="7928878" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="colorcg-favicon.ico" crc="269995307" ref="index"/>
+    <file name="colorcg-favicon.ico" crc="515703614" ref="index"/>
     <file name="colorcg_04.svg" crc="3760386758" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -284,14 +284,14 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="cgsociety_poster_.png" crc="3778552548" ref="index"/>
-    <file name="steam.svg" crc="346996518" seo="true" ref="index">
+    <file name="steam.svg" crc="4279366544" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="steam_poster_.png" crc="3918839407" ref="index"/>
+    <file name="steam_poster_.png" crc="336941273" ref="index"/>
     <file name="哔哩哔哩.svg" crc="379900175" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -2611,5 +2611,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4287941331" seo="true" mt="1536219409175" redirect="true"/>
+  <file name="index.html" crc="11064525" seo="true" mt="1536243451885" redirect="true"/>
 </manifest>
